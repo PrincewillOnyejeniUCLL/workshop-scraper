@@ -44,7 +44,7 @@ scraped_at = datetime.now().isoformat()
 # ------------------------
 # 4. SUPABASE CONNECTION
 # ------------------------
-SUPABASE_URL = os.environ["https://voqikgvnbuovdnnzbypc.supabase.co"]
+SUPABASE_URL = os.environ["db.voqikgvnbuovdnnzbypc.supabase.co"]
 SUPABASE_KEY = os.environ["sb_publishable_xLeHKq49TXtk_Si7GB3Acw_6BvUxdjl"]
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
